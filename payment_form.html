@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main">Payment Form</h1>
+        <p>*-Required Fields</p>
+        <h2>Personal Details</h2>
+        <p>Name: *<input type="text" name="name" required></p>
+        <legend>Gender *</legend>
+        <p>
+            Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required>
+        </p>
+        <p>Age: *<input type="number" name="age" id="age" required></p>
+        <p>Email: *<input type="email" name="email" id="email" required></p>
+        <p>Pincode: *<input type="number" name="pin" id="pin" required></p>
+        <h2>Payment Information</h2>
+        <p>Card Type: *
+            <select name="card_type" id="card_type" required>
+                <option value="">Select a card type</option>
+                <option value="visa"> Visa</option>
+                <option value="rupay"> Rupay </option>
+                <option value="master card">Master Card</option>
+            </select>
+        </p>
+        <p>
+            Card Number: *<input type="number" name="card_no" id="card_no" required>
+        </p>
+        <p>
+            Expiration Date: *<input type="date" name="exp_date" id="exp_date" required>
+        </p>
+        <p>CVV: *<input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="Pay Now">
+    </form>
+    <p class="lead">My first html project!!
+        <br>created by-->Anubhav Mendhiratta
+    </p>
+    </div>
+</body>
+</html>
